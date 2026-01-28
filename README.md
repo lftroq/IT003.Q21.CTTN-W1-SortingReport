@@ -10,3 +10,8 @@ Tạo bộ dữ liệu gồm 10 dãy, mỗi dãy khoảng 1 triệu số thực 
 
 ## Repository contents
 This repository contains a report for my exercise, source code in Python and C++, and results
+
+## Usage
+- Run Generator.py for the list of arrays.
+- Run Main.py for running algorithms and measuring times.
+- Run Plot.py for visualizations.
