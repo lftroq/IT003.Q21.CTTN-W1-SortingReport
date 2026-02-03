@@ -1,17 +1,17 @@
 # IT003.Q21.CTTN-W1-SortingReport
-A report for an exercise in DSA course at UIT
+A report for an exercise in the DSA course at UIT
 
-## Problem Statements (Vietnamese)
-Tạo bộ dữ liệu gồm 10 dãy, mỗi dãy khoảng 1 triệu số thực (ngẫu nhiên); dãy thứ nhất đã có thứ tự tăng dần, dãy thứ hai có thứ tự giảm dần, 8 dãy còn lại trật tự ngẫu nhiên; (5 dãy số thực, 5 dãy số nguyên)
-1. Viết các chương trình sắp xếp dãy theo các thuật toán QuickSort, HeapSort, MergeSort và chương trình gọi hàm sort của python (numpy);
-2. Chạy thử nghiệm mỗi chương trình đã viết ở trên với bộ dữ liệu đã tạo, ghi nhận thời gian thực thi từng lần thử nghiệm
-3. Viết báo cáo thử nghiệm: kết quả thử nghiệm ở dạng bảng dữ liệu và dạng biểu đồ; nhận xét kết quả thực nghiệm; báo cáo nộp bằng file PDF
-4. Toàn bộ các file liên quan cần được lưu trữ trên github (public) và ghi đường dẫn vào trong file báo cáo.
+## Problem Statements
+Create a dataset that consists of 10 arrays, each of which has about a million real numbers; the first array is increasing, the second array is decreasing, and the other 8 are in arbitrary order (5 of which are real numbers, the other 5 are integers).
+1.  Write programs that sort the arrays, using Quick Sort, Heap Sort, Merge Sort, numpy, and std::sort().
+2.  Run each program on the generated dataset, and log the time executed on each run.
+3.  Write the report for the experiment: put the results in a table and a chart; analyze the results; export to a PDF file.
+4.  Upload all relevant files onto GitHub (public) and provide the link in the report.
 
 ## Repository contents
-This repository contains a report for my exercise, source code in Python and C++, and results
+This repository contains a report for my exercise, source code in Python and C++, and the results in the csv file
 
-## Usage
-- Run Generator.py for the list of arrays.
-- Run Main.py for running algorithms and measuring times.
-- Run Plot.py for visualizations.
+## Utilization
+- Run "py Generator.py" for generating a list of arrays, which is saved into "array.txt".
+- Run "py Main.py" for running algorithms and measuring time.
+- Run "py Plot.py" for visualization.
